@@ -12,20 +12,44 @@
 				background-size:cover;
 
 			}
-			a{
+			 li
+			{	
+				
+				display: inline-block;
+        		border: 1px black solid;/*外框*/
+        		padding: 5px;/*留白*/
+        		width: 15%;
+        		/*height: 10%;*/
+        		line-height: 10px;/*內高*/
+        		margin: 1px;/*外框線*/
+        		text-align: center;
+        		font-size: 90%
+        		/*box-shadow: 2px 2px 5px gray;*/
+        		/*background-color: beige;*/
+        		/*background: radial-gradient(circle, white, skyblue,royalblue);*/
+			}
+			a
+			{
 				text-decoration: none;
 				color: blue; 
 				font-family: 'Noto Sans TC', sans-serif;
 			}
-			a:hover{
+			a:hover
+			{
 				color: green;
 				font-family: 'Noto Sans TC', sans-serif;
 				font-weight: bold;
 			}
+			.Git
+			{
+				display: none;
+			}
 		</style>
 	</head>
 	<body>
-		<a href="https://github.com/YutianGG/Html_TEST" target="_blank" title="Github"><img src="../img/git.jpg" height="20%" width=" 20%"></a>
+		<div class="Git"> 
+			<a href="https://github.com/YutianGG/Html_TEST" target="_blank" title="Github"><img src="../img/git.jpg" height="20%" width=" 20%"></a>
+		</div>
 		<ul>
 			<li><a href="Home.html">首頁</a></li>
 			<li><a href="Page01.html">Page01</a></li>
